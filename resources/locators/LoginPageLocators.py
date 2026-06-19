@@ -1,0 +1,5 @@
+LOGIN_USERNAME_INPUT = 'id:username'
+LOGIN_PASSWORD_INPUT = 'id:password'
+LOGIN_SUBMIT_BTN = 'id:submit-btn'
+LOGIN_FORM_ALERT = 'id:form-alert'
+LOGIN_FORM = 'id:login-form'

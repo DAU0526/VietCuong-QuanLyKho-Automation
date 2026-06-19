@@ -1,0 +1,8 @@
+config/
+results/
+*.html
+*.log
+*.xml
+__pycache__/
+*.pyc
+msedgedriver.exe

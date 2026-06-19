@@ -1,0 +1,8 @@
+HOME_PAGE_TITLE = 'css:.page-title'
+HOME_STAT_CARDS = 'css:.stat-card'
+HOME_QUICK_ACTIONS = 'css:.quick-card'
+HOME_SIDEBAR = 'css:.sidebar'
+HOME_USER_AVATAR = 'css:.user-avatar'
+HOME_LOGOUT_LINK = 'css:a[href*="logout"]'
+HOME_USER_POPUP_TOGGLE = 'id:userPopupToggle'
+HOME_USER_POPUP_CLOSE = 'css:[data-user-close]'
