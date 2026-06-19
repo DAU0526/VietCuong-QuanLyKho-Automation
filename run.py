@@ -8,6 +8,9 @@ DRIVER_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 def load_config(config_path):
+    if not os.path.isfile(config_path):
+        print(f'[WARN] Config file "{config_path}" not found, using defaults')
+        return {}
     with open(config_path, encoding='utf-8') as f:
         return yaml.safe_load(f)
 
